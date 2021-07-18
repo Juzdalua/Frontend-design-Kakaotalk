@@ -1,0 +1,68 @@
+/* user-component */
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--default-padding);
+}
+
+.user-component__img {
+  width: 90px;
+  height: 90px;
+  border-radius: 40px;
+}
+
+.user-component__profile {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  position: relative;
+}
+
+.user-component__profile-name {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.user-component__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.8;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.user-component__box-music {
+  margin-left: 30px;
+}
+
+/* birthday */
+.friend-more {
+  margin: var(--default-padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-component__img-sm {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+}
+
+.user-component__box-gift {
+  margin-left: 10px;
+}
+
+.red-dot__profile {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
