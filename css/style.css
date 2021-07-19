@@ -68,7 +68,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: var(--yellow);
-  z-index: 99;
+  z-index: 98;
   position: absolute;
   top: 0;
   animation: loadingPage 2s ease-in-out forwards;
@@ -77,4 +77,26 @@ body {
   justify-content: center;
   align-items: center;
   color: black;
+}
+
+.no-screen {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 950px) and (max-width: 1000px) {
+  .no-screen {
+    display: none;
+  }
 }
