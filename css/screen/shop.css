@@ -1,0 +1,137 @@
+.shop-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.shop-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  opacity: 0.8;
+}
+
+.shop-icon > i {
+  margin-bottom: 10px;
+}
+
+.shop-ad {
+  display: flex;
+  justify-content: center;
+}
+
+.shop-ad > img {
+  width: 50%;
+  height: 100px;
+}
+
+.shop-search {
+  background-color: white;
+  color: skyblue;
+  padding: 20px;
+}
+
+.shop-search__input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.shop-search__input > .fa-search {
+  position: absolute;
+  left: 20px;
+  bottom: 40px;
+}
+
+.shop-search__input > input {
+  width: 800px;
+  padding: 20px 40px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.shop-search__hashtag > span {
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid skyblue;
+  margin-left: 10px;
+}
+
+.shop-search__hashtag {
+  display: flex;
+  overflow: hidden;
+  font-size: 20px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.shop-search__hashtag > div {
+  color: rgba(0, 0, 0, 0.3);
+  margin-right: 20px;
+}
+
+.shop-gifts {
+  background-color: rgba(255, 255, 255, 0.6);
+
+  padding: 30px 20px;
+}
+.shop-gift {
+  background-color: white;
+  padding: 20px;
+}
+
+.shop-gift-available {
+  color: black;
+  padding: 0 20px;
+  font-size: 20px;
+  padding-bottom: 70px;
+}
+
+.shop-gift-available__title {
+  margin-bottom: 20px;
+}
+
+.shop-gift-available__contents {
+  display: flex;
+  align-items: center;
+}
+
+.shop-gift-available__contents-img {
+  padding: 30px 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.shop-gift-available__contents-img > img {
+  width: 200px;
+  height: 150px;
+}
+
+.shop-gift-available__contents-content {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 180px;
+}
+
+.shop-gift-available__contents-content > div:first-child {
+  opacity: 0.4;
+  padding: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.shop-gift-available__contents-content > div:last-child {
+  margin-top: 20px;
+  opacity: 0.6;
+}

@@ -1,0 +1,157 @@
+.news__title {
+  display: flex;
+  align-items: center;
+
+  width: 95%;
+}
+
+.news__title span {
+  margin: 0 10px;
+  height: 100px;
+  display: flex;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.news__title-none {
+  opacity: 0.6;
+}
+
+.news__title-click {
+  border-bottom: 2px solid white;
+}
+
+.news-corona {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  background-color: white;
+  padding: 20px 0;
+  margin-top: -30px;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.8);
+}
+
+.news-corona-main {
+  color: black;
+}
+
+.news-corona-grow {
+  display: flex;
+  align-items: center;
+  color: red;
+}
+
+.news-corona-standard {
+  font-size: 20px;
+  opacity: 0.6;
+  color: black;
+}
+
+.news-corona-QR {
+  border: 1px solid skyblue;
+  border-radius: 30px;
+  color: skyblue;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.news-ad {
+  margin-top: -20px;
+}
+
+.news-list__border-bottom {
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+}
+
+.news-lists {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.news-list {
+  margin-bottom: 10px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.news-headline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-headline-contents {
+  padding: 0 30px;
+}
+
+.news-headline-contents > img {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.news-headline-contents-content {
+  margin-top: 10px;
+  font-size: 30px;
+  width: 400px;
+  padding-bottom: 10px;
+}
+
+.news-search {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px 30px;
+  padding-bottom: 100px;
+}
+
+.news-search__input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.news-search__input > .fa-hashtag {
+  color: var(--yellow);
+  position: absolute;
+  left: 15px;
+  bottom: 45px;
+}
+
+.news-search__input > .fa-search {
+  opacity: 0.6;
+  position: absolute;
+  right: 20px;
+  bottom: 45px;
+}
+
+.news-search__input > input {
+  width: 800px;
+  padding: 20px 40px;
+  border: 5px solid var(--yellow);
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.news-search__hashtag > span {
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: gainsboro;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.news-search__hashtag {
+  display: flex;
+  flex-wrap: wrap;
+}

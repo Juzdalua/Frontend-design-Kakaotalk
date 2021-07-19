@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lulu Talk - Chats</title>
+    <title>Lulu Talk - Shop</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,127 +23,106 @@
 
     <header class="main__header">
         <div class="main__header__title">
-            <span>채팅</span><span class="red-dot__chat1"></span>
-            <span class="main__header__title-open-chat">오픈채팅</span><span class="red-dot__chat2"></span>
+            쇼핑
         </div>
         <div class="main__header__icon">
-            <i class="fas fa-search fa-2x"></i>
-            <i class="fas fa-comment-medical fa-2x"></i>
+            <i class="fas fa-barcode fa-2x"></i>
             <i class="fas fa-music fa-2x"></i>
             <i class="fas fa-cog fa-2x"></i>
         </div>
     </header>
 
-    <div class="chats-ad">
+    <div class="shop-icons">
+        <div class="shop-icon">
+            <i class="fas fa-gift fa-2x"></i>
+            선물하기
+        </div>
+        <div class="shop-icon">
+            <i class="fas fa-store fa-2x"></i>
+            쇼핑하기
+        </div>
+        <div class="shop-icon">
+            <i class="fab fa-maxcdn fa-2x"></i>
+            메이커스
+        </div>
+        <div class="shop-icon">
+            <i class="fas fa-users fa-2x"></i>
+            프렌즈
+        </div>
+        <div class="shop-icon">
+            <i class="fas fa-headset fa-2x"></i>
+            쇼핑라이브
+        </div>
+    </div>
+
+    <div class="shop-ad">
         <img src="data:image/jpeg;base64,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"/>
         <img src="https://1.bp.blogspot.com/-Ma-aUhfD0R0/X__wA_0M7II/AAAAAAAABT0/xeSfkJc1OqMBFbHqOn30zrRJ11fMI6e0gCLcBGAsYHQ/s1281/lostark-game-class-gunslinger.webp"/>
     </div>
 
-    <div class="user-component">        
-        <a href="chat.html">
-            <div class="user-component__profile">            
-                <img class="user-component__img-sm" src="https://cdn.pixabay.com/photo/2018/10/30/05/35/gragas-3782853__340.jpg" />
-                <div class="user-component__profile-box">
-                    <div class="user-component__profile-name">
-                        그라가스
-                        <i class="fas fa-thumbtack fa-sm"></i> 
-                    </div>
-                    <div class="user-component__profile-chat">
-                        니가 사는거라면 나도 끼지
-                    </div>
-                </div>
-            </div>  
-        </a>      
-        <div class="user-component__chat">
-            <div class="user-component__chat-time">오후 4:36</div>
-            <div class="user-component__chat-new">2</div>
+    <div class="shop-search">
+        <div class="shop-search__input">            
+            <i class="fas fa-search fa-2x"></i>
+            <input placeholder="카카오쇼핑에서 검색하세요." type="text" />            
+        </div>
+        <div class="shop-search__hashtag">
+            <div>추천<i class="fas fa-info-circle"></i></div>
+            <span>쿨 바디필로우</span>
+            <span>[LIVE] 피죤</span>
+            <span>스텝퍼</span>
+          
         </div>
     </div>
-    <div class="user-component">        
-        <div class="user-component__profile">            
-            <img class="user-component__img-sm" src="https://cdn.pixabay.com/photo/2019/01/03/13/47/young-3910977__340.jpg" />
-            <div class="user-component__profile-box">
-                <div class="user-component__profile-name">
-                    럭스
-                    <!-- <i class="fas fa-thumbtack fa-sm"></i>  -->
-                </div>
-                <div class="user-component__profile-chat">
-                    데마thㅣ아~!
-                </div>
-            </div>
-        </div>        
-        <div class="user-component__chat">
-            <div class="user-component__chat-time">오후 4:27</div>
-            <!-- <div class="user-component__chat-new">2</div> -->
-        </div>
-    </div>
-    <div class="user-component">        
-        <div class="user-component__profile">            
-            <img class="user-component__img-sm" src="https://cdn.pixabay.com/photo/2018/12/15/23/05/master-3877743__340.jpg" />
-            <div class="user-component__profile-box">
-                <div class="user-component__profile-name">
-                    마스터이
-                    <!-- <i class="fas fa-thumbtack fa-sm"></i>  -->
-                </div>
-                <div class="user-component__profile-chat">
-                    나의 검은 당신의 것이요
-                </div>
-            </div>
-        </div>        
-        <div class="user-component__chat">
-            <div class="user-component__chat-time">오후 4:19</div>
-            <div class="user-component__chat-new">1</div>
-        </div>
-    </div>
-    <div class="user-component">        
-        <div class="user-component__profile">            
-            <img class="user-component__img-sm" src="https://cdn.pixabay.com/photo/2019/01/03/13/43/man-3910973__340.jpg" />
-            <div class="user-component__profile-box">
-                <div class="user-component__profile-name">
-                    그레이브즈
-                    <!-- <i class="fas fa-thumbtack fa-sm"></i>  -->
-                </div>
-                <div class="user-component__profile-chat">
-                    내가 돌아왔다
-                </div>
-            </div>
-        </div>        
-        <div class="user-component__chat">
-            <div class="user-component__chat-time">어제</div>
-            <!-- <div class="user-component__chat-new">2</div> -->
-        </div>
-    </div>
-    <div class="user-component">        
-        <div class="user-component__profile">            
-            <img class="user-component__img-sm" src="https://cdn.pixabay.com/photo/2019/01/03/13/45/female-3910976__340.jpg" />
-            <div class="user-component__profile-box">
-                <div class="user-component__profile-name">
-                    룰루
-                    <!-- <i class="fas fa-thumbtack fa-sm"></i>  -->
-                </div>
-                <div class="user-component__profile-chat">
-                    보라색 맛 났어
-                </div>
-            </div>
-        </div>        
-        <div class="user-component__chat">
-            <div class="user-component__chat-time">어제</div>
-            <div class="user-component__chat-new">4</div>
-        </div>
-    </div>
-    
-       
 
-    
+    <div class="shop-gifts">
+        <div class="shop-gift">
+            <div class="user-component-shop">
+                <div class="user-component__profile">
+                    <img class="user-component__img-sm" src="https://avatars.githubusercontent.com/u/34051263?v=4" />
+                    <div class="user-component__profile-box">
+                        <div class="user-component__profile-name-shop">
+                            김준
+                        </div>
+                        <!-- <div class="user-component__profile-chat">
+                            
+                        </div> -->
+                    </div>
+                </div>        
+                <div class="user-component__box-shop">
+                    <i class="fab fa-product-hunt"></i>
+                    쇼핑포인트 0
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="shop-gift-available">
+                <div class="shop-gift-available__title">
+                    사용 가능한 선물
+                </div>
+                <div class="shop-gift-available__contents">
+                    <div class="shop-gift-available__contents-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9oHkanojo5iHiQJnEms0iCflnjZqABNMsA&usqp=CAU" />
+                    </div>
+                    <div class="shop-gift-available__contents-content">
+                        <div>D-336</div>
+                        <div>from. 야스오</div>
+                        <div>디지털 상품권 1만원권</div>
+                    </div>                       
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <nav class="nav-bar">
         <a href="friends.html"><i class="fas fa-user fa-2x"></i></a>
         <a class="nav-bar__chats" href="chats.html">
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
             <span class="nav-bar__chats-reddot">7</span>
         </a>
         <a href="news.html"><i class="fas fa-hashtag fa-2x"></i></a>
-        <a href="shop.html"><i class="far fa-star fa-2x"></i></a>
+        <a href="shop.html"><i class="fas fa-star fa-2x"></i></a>
         <a href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
     </nav>
 

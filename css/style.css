@@ -1,10 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 @import "reset.css";
 @import "variable.css";
 
 /* screen */
 @import "screen/login.css";
 @import "screen/chats.css";
+@import "screen/news.css";
+@import "screen/shop.css";
+@import "screen/more.css";
+@import "screen/chat.css";
 
 /* components */
 @import "components/user-components.css";
@@ -13,13 +16,65 @@
 
 /* body */
 body {
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 110vh;
+  background-color: rgb(51, 51, 51);
+  height: auto;
   color: white;
-  font-family: "Jua", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .border-top {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin: var(--default-padding);
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
+}
+
+@keyframes rotateMusic {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.fa-music:hover {
+  animation: rotateMusic 1s linear infinite;
+}
+
+@keyframes loadingPage {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.loading-page {
+  width: 100%;
+  height: 100%;
+  background-color: var(--yellow);
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  animation: loadingPage 2s ease-in-out forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
 }

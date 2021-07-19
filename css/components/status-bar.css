@@ -7,10 +7,12 @@
   box-sizing: border-box;
   position: fixed;
   top: 0;
+  background-color: rgb(32, 32, 32);
+  z-index: 2;
 }
 
-/* friend-header */
-.main__header-friends {
+/* main-header */
+.main__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,10 +20,10 @@
   padding: var(--default-padding);
 }
 
-.main__header-friends__title {
+.main__header__title {
   font-size: 40px;
 }
 
-.main__header-friends__icon > i {
+.main__header__icon > i {
   padding: 0 10px;
 }

@@ -8,17 +8,17 @@
   position: absolute;
 }
 
-.main__header-friends__title {
+.main__header__title {
   position: relative;
   display: flex;
 }
 
-.main__header-friends__title > span:nth-child(3) {
+.main__header__title-open-chat {
   margin-left: 10px;
 }
 
 .red-dot__chat1 {
-  left: 67px;
+  left: 80px;
 }
 
 .red-dot__chat2 {
@@ -37,6 +37,11 @@
   border-radius: 10px;
 }
 
-.main__header-friends__title span:nth-child(3) {
+.main__header__title-open-chat {
   opacity: 0.6;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

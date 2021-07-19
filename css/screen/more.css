@@ -1,0 +1,115 @@
+.wallet {
+  background-color: var(--yellow);
+  color: black;
+}
+
+.wallet__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  font-size: 30px;
+}
+
+.wallet__header__icon > i {
+  margin-left: 50px;
+}
+
+.wallet__btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 24px;
+  position: relative;
+  padding: 20px;
+  margin-top: -20px;
+}
+
+.wallet__btn > button {
+  padding: 10px 50px;
+  width: 100%;
+  text-align: start;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.wallet__btn > i:first-child {
+  position: absolute;
+  left: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.wallet__btn > i:last-child {
+  position: absolute;
+  right: 30px;
+  opacity: 0.6;
+}
+
+.wallet-money {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  font-size: 24px;
+}
+
+.wallet-account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  font-size: 24px;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.menu-icon-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.menu-icon-row__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.menu-icon-row__content > i {
+  margin-bottom: 10px;
+}
+
+.more-ad {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.more-ad > img {
+  width: 100%;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.reddot-more {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: tomato;
+  right: -15px;
+  top: -5px;
+}
