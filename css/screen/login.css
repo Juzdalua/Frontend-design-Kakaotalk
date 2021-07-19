@@ -1,0 +1,57 @@
+.login-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-bar span,
+.login-bar i {
+  padding-left: 10px;
+}
+
+.login__img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.login__img > img {
+  border-radius: 40px;
+}
+
+.login__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__input-ID,
+.login__input-PW,
+.login__input-btn {
+  border: 0.1px solid rgba(51, 29, 29, 0.1);
+  padding: 10px 80px;
+  outline: none;
+}
+
+.login__input-btn {
+  padding: 10px 145px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.login__input-btn:active {
+  transform: scale(0.98);
+}
+
+.login__input-ID-box > i {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.login__input-ID-box {
+  position: relative;
+}

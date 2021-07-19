@@ -20,7 +20,6 @@
 }
 
 .user-component__profile-name {
-  margin-left: 20px;
   font-size: 25px;
 }
 
@@ -65,4 +64,42 @@
   position: absolute;
   top: 0px;
   left: 0px;
+}
+
+.user-component__profile-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.user-component__profile-chat {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.user-component__profile-name > .fa-thumbtack {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.user-component__chat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.user-component__chat-new {
+  color: white;
+  background-color: tomato;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

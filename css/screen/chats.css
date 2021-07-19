@@ -1,0 +1,42 @@
+.red-dot__chat1,
+.red-dot__chat2 {
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+}
+
+.main__header-friends__title {
+  position: relative;
+  display: flex;
+}
+
+.main__header-friends__title > span:nth-child(3) {
+  margin-left: 10px;
+}
+
+.red-dot__chat1 {
+  left: 67px;
+}
+
+.red-dot__chat2 {
+  right: -10px;
+}
+
+.chats-ad {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.chats-ad > img {
+  width: 45%;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.main__header-friends__title span:nth-child(3) {
+  opacity: 0.6;
+}

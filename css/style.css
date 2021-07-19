@@ -2,8 +2,14 @@
 @import "reset.css";
 @import "variable.css";
 
+/* screen */
+@import "screen/login.css";
+@import "screen/chats.css";
+
 /* components */
 @import "components/user-components.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* body */
 body {
@@ -13,52 +19,7 @@ body {
   font-family: "Jua", sans-serif;
 }
 
-/* status-bar */
-.status-bar {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 20px 40px;
-  box-sizing: border-box;
-  position: fixed;
-  top: 0;
-}
-
-/* friend-header */
-.main__header-friends {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 50px;
-  padding: var(--default-padding);
-}
-
-.main__header-friends__title {
-  font-size: 40px;
-}
-
-.main__header-friends__icon > i {
-  padding: 0 10px;
-}
-
 .border-top {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin: var(--default-padding);
-}
-
-/* nav-bar */
-.nav-bar {
-  background-color: rgba(0, 0, 0, 0.4);
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 80px;
-  box-sizing: border-box;
-}
-
-.nav-bar a {
-  color: white;
 }
